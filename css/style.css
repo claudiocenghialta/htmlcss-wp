@@ -163,11 +163,26 @@ main p {
 
 footer {
     width: 100%;
-    height: 100px;
     padding: 10px 0;
 }
 footer .box {
     background-color: white;
-    margin-bottom: 20px;
+    padding: 5px 5px 0 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.credits {
+    padding: 0 10px;
+    margin: 0 auto;
+    text-align: center;
+    color: #cecece;
+}
+.credits.name {
+    border-bottom: 2px solid #cecece;
+}
+.credits.imglink {
+
+    display: inline-block;
+    width: 33%;
+    font-size: 50px;
+    line-height: 2em;
 }
