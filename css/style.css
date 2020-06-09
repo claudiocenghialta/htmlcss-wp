@@ -25,6 +25,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 2px;
+    padding: 10px;
 }
 
 /*---------------------------------Formattazione Header ---------------------------------*/
@@ -93,36 +94,69 @@ nav {
     width: 100%
 }
 
-aside .box, main .box, footer .box {
+.row .box {
     background-color: white;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+.row h3 {
+    color: #504741;
+    padding: 10px;
+}
+
+.row p {
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+/*---------------------------------Formattazione aside left ---------------------------------*/
 
 .left {
     width: 20%;
     float: left;
     padding: 10px 10px 10px 0px;
 }
+
+.feed .fa-rss-square {
+    color: orange;
+}
+
+.feed span {
+    color: #504741;
+}
+
+.feed p {
+    color: #1c8204;
+}
+
+/*---------------------------------Formattazione main ---------------------------------*/
+
+main {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+main h2 {
+    color: #504741;
+    padding: 10px;
+    text-shadow: 2px 2px lightgrey;
+    text-transform: uppercase;
+}
+
+main p {
+    padding: 10px;
+    line-height: 1.75em;
+}
+
+/*---------------------------------Formattazione aside right---------------------------------*/
+
 .right {
     width: 30%;
     float: left;
     padding: 10px 0px 10px 10px;
-}
-
-.left .box {
-    height: 300px;
-}
-
-.right .box {
-    height: 200px;
-}
-
-main {
-    height: 500px;
-    width: 50%;
-    float: left;
-    padding: 10px;
 }
 
 /*---------------------------------Formattazione footer ---------------------------------*/
@@ -131,4 +165,9 @@ footer {
     width: 100%;
     height: 100px;
     padding: 10px 0;
+}
+footer .box {
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
