@@ -1,9 +1,9 @@
+/*--------------------------------- Formattazioni generiche ---------------------------------*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .clearfix::after {
@@ -21,15 +21,13 @@ body {
     margin: 40px auto;
 }
 
-.row {
-    width: 100%
-}
 .box {
     width: 100%;
     height: 100%;
     border-radius: 2px;
 }
 
+/*---------------------------------Formattazione Header ---------------------------------*/
 header {
     width: 100%;
     height: 350px;
@@ -65,11 +63,34 @@ header .title {
     font-weight: bold;
 }
 
+/* --------------------------------- Formattazione nav ---------------------------------*/
+
 nav {
     width: 100%;
     height: 40px;
     margin-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+.menu {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.menu li{
+    display: inline-block;
+    color: white;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0 10px;
+    font-size: larger;
+    text-align: center;
+    line-height: 40px;
+}
+
+/*---------------------------------Formattazione row con aside e main ---------------------------------*/
+.row {
+    width: 100%
 }
 
 aside .box, main .box, footer .box {
@@ -103,6 +124,8 @@ main {
     float: left;
     padding: 10px;
 }
+
+/*---------------------------------Formattazione footer ---------------------------------*/
 
 footer {
     width: 100%;
