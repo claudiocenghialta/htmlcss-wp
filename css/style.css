@@ -54,14 +54,32 @@ header .title {
     text-transform: uppercase;
 }
 
-.title img {
+/* .title img {
     object-fit: contain;
     object-position: center;
     height: 200px;
+} */
+
+.title h1{
+    font-size: 50px;
+
+}
+/* .logo i{
+    display: inline;
+} */
+.logo {
+    transform: translate( 0 , 0.5em);
+}
+.sitename {
+    display: inline-block;
+    border: 0.15em solid white;
+    padding: 0.2em 0 0.2em 0.5em;
+    letter-spacing: 0.5em;
 }
 
 .title h2 {
     font-weight: bold;
+    padding: 10px 0;
 }
 
 /* --------------------------------- Formattazione nav ---------------------------------*/
