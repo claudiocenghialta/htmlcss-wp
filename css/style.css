@@ -88,10 +88,11 @@ nav {
     height: 40px;
     margin-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
 }
 
 .menu {
-    width: max-content;
+    /* width: max-content; */
     margin: 0 auto;
 }
 
@@ -102,7 +103,7 @@ nav {
     text-transform: uppercase;
     padding: 0 10px;
     font-size: larger;
-    text-align: center;
+
     line-height: 40px;
 }
 
