@@ -18,6 +18,7 @@ body {
 
 .container {
     width: 90vw;
+    max-width: 1000px;
     margin: 40px auto;
 }
 
@@ -64,9 +65,7 @@ header .title {
     font-size: 50px;
 
 }
-/* .logo i{
-    display: inline;
-} */
+
 .logo {
     transform: translate( 0 , 0.5em);
 }
